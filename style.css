@@ -1,0 +1,120 @@
+.logo{
+    margin-left: 20px;
+    height: auto;
+    width: 130px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    z-index: 999;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover  .dropdown-content
+{
+    display: block;
+}
+
+.banner{
+    background-image: url("images/TechHive_banner.png") ;
+    height: 705px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+    z-index: -1;
+}
+
+.banner_text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size:75px;
+   font-family: 'TT Norms', Arial, sans-serif;
+}
+
+.banner_text p{
+    margin:0;
+}
+@font-face {
+    font-family: 'TT Norms';
+    src: url('fonts/TTNorms-Regular.ttf') format('truetype');
+    /* Add additional src lines for other font variations if available */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 35px;
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition : 0.5s;
+}
+ nav ul li a:hover::after{
+    width: 100%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > div {
+    padding: 30px 30px;
+
+}

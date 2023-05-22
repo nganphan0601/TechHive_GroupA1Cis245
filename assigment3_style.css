@@ -1,0 +1,29 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            background-color: #d8f3dc; 
+        }
+        th, td {
+            border: 2px solid black; 
+            padding: 10px;
+            text-align: left;
+        }
+        tbody {
+            background-color: white;
+        }
+        thead th {
+            color:white;
+            background-color: red;
+        }
+        tfoot td {
+            background-color: skyblue;
+            text-align: center;
+        }
