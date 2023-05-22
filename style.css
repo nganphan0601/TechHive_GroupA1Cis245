@@ -46,24 +46,30 @@
 
 .banner_text{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
     color:black;
     font-size:75px;
-   font-family: 'TT Norms', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
+.banner button{
+    font-weight: bold;
+    padding: 15px 42px;
+    border: 0 ;
+    border-radius: 50px;
+    
+}
+.banner_button{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
 .banner_text p{
     margin:0;
 }
-@font-face {
-    font-family: 'TT Norms';
-    src: url('fonts/TTNorms-Regular.ttf') format('truetype');
-    /* Add additional src lines for other font variations if available */
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 body{
     font-family: 'Poppins', sans-serif;
