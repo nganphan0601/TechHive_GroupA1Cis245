@@ -1,7 +1,7 @@
 .logo{
     margin-left: 20px;
     height: auto;
-    width: 130px;
+    width: 140px;
 }
 .dropdown{
     position: relative;
@@ -58,21 +58,79 @@
     padding: 15px 42px;
     border: 0 ;
     border-radius: 50px;
-    
+    margin-left: 20px;
 }
-.banner_button{
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    align-items: center;
-}
+
 .banner_text p{
     margin:0;
 }
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 400px ;
+    gap: 20px; 
+}
 
+.gallery a{
+    overflow: hidden;
 
+}
+.gallery .image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+  }
+  
+.gallery .image:hover{
+    transform: scale(1.2);
+    z-index: -1;
+}
+.gallery-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+.desktop {
+    background-image: url('images/desktopgaming2.jpg');
+  }
+  
+.laptop {
+    background-image: url('images/lapgaming.jpg');
+  }
+  
+.phone {
+    background-image: url('images/phone.jpg');
+  }
+  
+.tablet {
+    background-image: url('images/tablet.jpg');
+  }
+
+.advertise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+  
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 
 nav{
@@ -114,13 +172,13 @@ nav ul li a::after{
     width: 100%;
 }
 footer{
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
 footer > div {
-    padding: 30px 30px;
+    padding: 30px 30px 10px;
 
 }
