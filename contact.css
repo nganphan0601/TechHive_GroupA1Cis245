@@ -1,0 +1,104 @@
+.logo{
+    margin-left: 20px;
+    height: auto;
+    width: 130px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover  .dropdown-content
+{
+    display: block;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('fonts/TTNorms-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+}
+nav ul{
+    display: absolute;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 35px;
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition : 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer > div {
+    padding: 30px 30px;
+}
+
+.container {
+    height: 705px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 2em;
+    position: relative;
+    z-index:-1;
+}
+.contact-form textarea, .contact-form select {
+    width: 100%;
+    margin-bottom: 1em;
+}
