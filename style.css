@@ -72,13 +72,13 @@
 .gallery{
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 400px ;
+    grid-template-rows: 350px ;
     gap: 20px; 
 }
 
 .gallery a{
     overflow: hidden;
-
+    position: relative;
 }
 .gallery .image {
     width: 100%;
@@ -86,10 +86,20 @@
     padding-bottom: 100%;
     background-size: cover;
     background-position: center;
-    transition: 1s;
+    transition: 0.8s;
   }
   
-.gallery .image:hover{
+.image button{
+    opacity: 0.8;
+    border: 0;
+    padding: 15px 30px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+}
+
+.image:hover{
     transform: scale(1.2);
     z-index: -1;
 }
@@ -141,6 +151,7 @@ nav{
     left:0;
     width: 100%;
     background-color: white;
+    z-index: 10;
 }
 nav ul{
     display: flex;
@@ -179,6 +190,9 @@ footer{
 }
 
 footer > div {
-    padding: 30px 30px 10px;
+    
+    background-color: black;
+    color: white;
+    padding: 15px;
 
 }
