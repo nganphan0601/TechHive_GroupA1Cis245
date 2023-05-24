@@ -1,36 +1,37 @@
-logo {
+.logo{
   margin-left: 20px;
   height: auto;
-  width: 130px;
+  width: 140px;
 }
-
-dropdown {
+.dropdown{
   position: relative;
   display: inline-block;
+  z-index: 999;
 }
-
-dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
 }
 
-dropdown-content a {
+.dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
 
-dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-dropdown:hover dropdown-content {
+/* Show the dropdown menu on hover */
+.dropdown:hover  .dropdown-content
+{
   display: block;
 }
+
 
 @font-face {
   font-family: 'TT Norms';
@@ -41,6 +42,7 @@ dropdown:hover dropdown-content {
 
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 nav {
@@ -85,16 +87,7 @@ nav ul li a:hover:after {
   width: 100%;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
-footer > div {
-  padding: 30px 30px;
-}
 
 .container {
   display: flex;
@@ -106,4 +99,19 @@ footer > div {
 
 .contact-info {
   text-align: center;
+}
+
+footer{
+    
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > div {
+  
+  background-color: black;
+  color: white;
+  padding: 15px;
+
 }
