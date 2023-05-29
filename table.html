@@ -36,66 +36,28 @@
             </ul>
         </nav>
         </div>
-    <table>
-        <thead>
-        <tr> <td colspan="4">Our Catalogue</td></tr>
-        </thead>
-        <thead>
-        <tr>
-            <th>Item Id</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Price</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Lab001</td>
-            <td>ZenBook</td>
-            <td>Laptop</td>
-            <td>3000</td>
-        </tr>
-        <tr>
-            <td>Lab002</td>
-            <td>ViVoBook</td>
-            <td>Laptop</td>
-            <td>2000</td>
-        </tr>
-        <tr>
-            <td>Lab003</td>
-            <td>Macbook air</td>
-            <td>Laptop</td>
-            <td>25000</td>
-        </tr>
-        <tr>
-            <td>Pad001</td>
-            <td>Ipad</td>
-            <td>Pad</td>
-            <td>24589</td>
-        </tr>
-        <tr>
-            <td>Pad002</td>
-            <td>Galaxy pad</td>
-            <td>Pad</td>
-            <td>3000</td>
-        </tr>
-        <tr>
-            <td>P001</td>
-            <td>Iphone</td>
-            <td>CellPhone</td>
-            <td>4200</td>
-        </tr>
-        <tr>
-            <td>P002</td>
-            <td>Galaxy S8</td>
-            <td>CellPhone</td>
-            <td>2300</td>
-        </tr>
-        </tbody>
-        <tfoot>
-        <tr> <td colspan="4">&copy; Group A1</td></tr>
-        </tfoot>
-        </table>
+    <script>
+itemId= new Array();
+itemName= new Array();
+itemType= new Array();
+itemPrice= new Array();
+itemId = ["Lab001", "Lab002", "Lab003", "Pad001", "Pad002", "P001", "P002"];
+itemName = ["ZenBook", "ViVoBook", "Macbook air", "Ipad", "Galaxy pad", "Iphone", "Galaxy S8"];
+itemType = ["Laptop", "Laptop", "Laptop", "Pad", "Pad", "CellPhone", "CellPhone"];
+itemPrice = ["3000", "2000", "25000", "24589", "3000", "4200", "2300"];
+
+document.write("<table border=\"1\">");
+document.write("<tr><th>Item Id</th><th>Name</th><th>Type</th><th>Price</th></tr>");
+for (i = 0; i < itemId.length; i++) {
+    document.write("<tr><td>"+itemId[i]+"</td>"
+                    + "<td>"+itemName[i]+"</td>"
+                    + "<td>"+itemType[i]+"</td>"
+                    + "<td>"+itemPrice[i]+"</td>"
+                +"</tr>");
+}
+document.write("</table>");
+</script>
+	
     <footer>
         <div>
        Coded by Team A1 with ❤️ All rights reserved.
