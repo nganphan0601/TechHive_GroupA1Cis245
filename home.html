@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images\TechHive_favicon.png">
+    <script src="index.js" defer></script>
     <title>TechHive's Homepage</title>
 </head>
 <body>
@@ -30,6 +31,7 @@
                     <a href="#">Mobile</a>
                     <a href="#">Tablet</a>
                     <a href="table.html" target="_blank">Products table</a>
+                    
                 </div>
             </li>
             </div>
@@ -37,6 +39,8 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
+        <a href="#" id="signin">Sign in</a>
+        <img id="cart" scr="" alt="cart" />
 </nav>
 
 <main>
@@ -45,15 +49,15 @@
         <div class="banner_text">
             <p style="font-weight: 900;">TechHive</p>
             <p style="font-weight: lighter;">We simplify<br>your tech life</p>
-            <div class="banner_button">
-                <a href="#shopall"><button>Shop All</button></a>
-            </div>
-        </div>
+           
+                
+        </div>     
+        <button onclick="alert('hello')">Shop All</button>
     </div>
     
     <!-- categories -->
     <p class="gallery-title" id="shopall">Shop by categories</p>
-    <div class="container gallery">
+    <div class="container gallery" >
         <a href="#">
             <div class="image desktop">
                 <button>Desktop</button>
