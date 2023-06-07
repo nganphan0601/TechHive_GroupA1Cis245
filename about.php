@@ -1,3 +1,10 @@
+
+<?php
+session_start();
+include("connection.php");
+include("functions.php");
+$user_name = check_login($con);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,31 +21,39 @@
     <title>TechHive's About</title>
 </head>
 <body>
-    <header></header>
+    
 <nav>
-        <img class="logo" src="images/HomeLogo-removebg-preview.png" alt="TechHive's logo"/>
+        <a href="home.php"><img class="logo" src="images/HomeLogo-removebg-preview.png" alt="TechHive's logo" /></a>
 
         <ul>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="home.php">Home</a></li>
 
             <div class="dropdown">
-            <li><a href="#">Products</a>
-                <div class="dropdown-content">
-                    <a href="#">Desktop</a>
-                    <a href="#">Laptop</a>
-                    <a href="#">Mobile</a>
-                    <a href="#">Tablet</a>
-                    <a href="table.html" target="_blank">Products table</a>
-                </div>
-            </li>
+                <li><a href="#">Products</a>
+                    <div class="dropdown-content">
+                        <a href="#">Desktop</a>
+                        <a href="#">Laptop</a>
+                        <a href="#">Mobile</a>
+                        <a href="#">Tablet</a>
+                        <a href="table.php">Products table</a>
+
+                    </div>
+                </li>
             </div>
 
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="about.php">About</a></li>
         </ul>
-        <a href="#" id="signin">Sign in</a>
+
+        <!-- Sign in -->
+
+        <a href="signin.php" id="signin" onmouseover="register_show()" onmouseout="register_hide()">Sign in</a>
+        <div id="register" style="display: none;">
+            <p>New customer?<a href="register.php">Start here!</a></p>
+        </div>
+
         <img id="cart" scr="" alt="cart" />
-</nav>
+    </nav>
 
     <main>
 	<div class="container">

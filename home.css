@@ -1,6 +1,9 @@
 :root {
     --box-background : #f1f1f1;
 }
+a{
+    cursor: pointer;
+}
 
 #signin{
     text-decoration: none;
@@ -9,7 +12,14 @@
     margin-left: auto;
     margin-right: 40px;
     color: black;
+   
 }
+#register{
+   
+    min-width: 200px;
+}
+
+
 #cart{
     height: auto;
     width: 25px;
@@ -19,6 +29,7 @@
     margin-left: 20px;
     height: auto;
     width: 140px;
+    cursor: pointer;
 }
 .dropdown{
     position: relative;
@@ -48,15 +59,13 @@
 {
     display: block;
 }
-#shopbutton {
-    cursor: pointer;
-}
+
 .banner{
     background-image: url("images/TechHive_banner.png") ;
     height: 705px;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat ;
+   
     background-size: cover;
     padding: 0;
     position: relative;
@@ -224,4 +233,5 @@ footer > div {
     padding: 15px;
 
 }
+
 
