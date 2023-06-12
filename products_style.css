@@ -1,0 +1,18 @@
+
+        main {
+            padding: 60px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            gap: 50px;
+        }
+        .product-card{
+            
+        }
+    

@@ -211,17 +211,18 @@ nav ul li a::after{
     width: 100%;
 }
 footer{
-    
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
 footer > div {
-    
+    text-align: center;
     background-color: black;
     color: white;
     padding: 15px;
 
 }
+
+
 

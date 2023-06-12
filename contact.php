@@ -16,29 +16,7 @@
 <body>
     <header></header>
     <div>
-        <nav>
-            <img class="logo" src="images/HomeLogo-removebg-preview.png" alt="TechHive's logo"/>
-    
-            <ul>
-                <li><a href="home.html">Home</a></li>
-    
-                <div class="dropdown">
-                <li><a href="#">Products</a>
-                    <div class="dropdown-content">
-                        <a href="#">Desktop</a>
-                        <a href="#">Laptop</a>
-                        <a href="#">Mobile</a>
-                        <a href="#">Tablet</a>
-                        <a href="table.html" target="_blank">Products table</a>
-                    </div>
-                </li>
-                </div>
-    
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>            </ul>
-                <a href="#" id="signin">Sign in</a>
-                <img id="cart" scr="" alt="cart" />
-    </nav>
+    <?php include("navbar.php"); ?>
         </div>
         <div class="container">
             <div class="contact-info">
