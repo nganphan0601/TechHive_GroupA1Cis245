@@ -12,13 +12,13 @@ Lap010,HP 14 HD,Laptop,404.99,images\Products\Lap010.jpg,"Intel Core i5-1035G1, 
 Lap011,Lenovo IdeaPad 3 15" Laptop,Laptop,504.99,images\Products\Lap011.jpg,"AMD Ryzen 5 3500U Processor, 8GB Memory, 256GB SSD, Windows 10 Home, Almond, 81W1009EUS (Google Classroom Compatible)"
 Lap012,HP 15.6" Laptop,Laptop,325,images\Products\Lap012.jpg,"Intel Pentium Silver N5000, 4GB RAM, 128GB SSD, Windows 10 Home with Office , Scarlet Red, 15-dw0083wm"
 Lap013,ASUS CX1 15.6" Chromebook-Silver,Laptop,599,images\Products\Lap013.jpg,Intel Pentium Silver N6000/128GB eMMC/8GB RAM/Chrome OS
-Lap014,,Laptop,,,
-Lap015,,Laptop,,,
-Lap016,,Laptop,,,
-Lap017,,Laptop,,,
-Lap018,,Laptop,,,
-Lap019,,Laptop,,,
-Lap020,,Laptop,,,
+Lap014,Acer 16" Gaming Chromebook - Silver,Laptop,849.99,images\Products\Lap014.jpg,Intel Core i5-1240P/256GB SSD/8GB RAM/Chrome OS
+Lap015,Acer 317 Celeron,Laptop,479.99,images\Products\Lap015.jpg,Intel Celeron N4500/128GB eMMC/4GB RAM/Chrome OS
+Lap016,Acer Swift Fun Student Laptop,Laptop,499,images\Products\Lap016.jpg,14" Fhd Intel Quad-core I5 11th Gen I5-1135g7 16gb Ram 512gb Ssd Intel Iris Xe Graphics Notebook
+Lap017,HP Envy x360,Laptop,1199,images\Products\Lap017.jpg,Touchscreen 2-in-1 Laptop - Silver (Intel Core i5-1240P/1TB SSD/16GB RAM/Windows 11)
+Lap018,Microsoft Surface Laptop Studio 14.4",Laptop,2349,images\Products\Lap018.jpg,Platinum (Intel Core i7-11370H/512GB SSD/16GB RAM/Windows 11)
+Lap019,ASUS Zenbook Pro 15,Laptop,1799,images\Products\Lap019.jpg,OLED 15.6" Touchscreen 2-in-1 Laptop - Black (Intel Evo i7-12700H/1TB SSD/16GB RAM
+Lap020,ASUS ROG Zephyrus G15,Laptop,1999.99,images\Products\Lap020.jpg,15.6" Gaming Laptop (AMD Ryzen 7 6800HS/512GB SSD/16GB RAM/RTX 3060/Win 11
 Desk001,,Desktop,,,
 Desk002,,Desktop,,,
 Desk003,,Desktop,,,
