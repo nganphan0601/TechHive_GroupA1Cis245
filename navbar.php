@@ -12,13 +12,13 @@
                     <a href="phone.php">Mobile</a>
                     <a href="tablet.php">Tablet</a>
                     <a href="table.php">Products table</a>
-
                 </div>
             </li>
         </div>
-
+        <li><a href="developer.php">Developer</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="about.php">About</a></li>
+
     </ul>
 
 </nav>

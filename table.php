@@ -62,7 +62,7 @@ _HTML2;
 
         // no input
         else {
-echo "<p style=\"color:red;\">Input some information to search</p>";
+            echo "<p style=\"color:red;\">Input some information to search</p>";
 
             // display the full table
             $CSVfp = fopen("products.csv", "r");

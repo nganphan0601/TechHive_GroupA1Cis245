@@ -25,6 +25,11 @@ form{
     border-radius: 10px;
     cursor: pointer;;
 }
+
+form > #search-submit:hover{
+    color: white;
+    background-color: black;
+}
 table{
     border-collapse: collapse;
     padding: 20px;
