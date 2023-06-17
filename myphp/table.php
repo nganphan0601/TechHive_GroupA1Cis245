@@ -28,7 +28,7 @@
         <?php
         if (!empty($_POST['search_txt'])) {
             $search = $_POST['search_txt']; //get the search text into a variable
-            $CSVfp = fopen("products.csv", "r");
+            $CSVfp = fopen("../products.csv", "r");
             if ($CSVfp !== FALSE) { //file exists?
                 $data = fgetcsv($CSVfp, 1000, ","); //first row
                 if (!empty($data)) //is the line read empty
@@ -65,7 +65,7 @@ _HTML2;
             echo "<p style=\"color:red;\">Input some information to search</p>";
 
             // display the full table
-            $CSVfp = fopen("products.csv", "r");
+            $CSVfp = fopen("../products.csv", "r");
             if ($CSVfp !== FALSE) { //file exists?
                 $data = fgetcsv($CSVfp, 1000, ","); //first row
                 if (!empty($data)) //is the line read empty

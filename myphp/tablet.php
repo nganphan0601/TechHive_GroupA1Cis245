@@ -22,7 +22,7 @@ $featured = mysqli_query($connection, $query);      // send the query to the dat
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="images\TechHive_favicon.png">
     <script src="index.js" defer></script>
-    <title>TechHive's Homepage</title>
+    <title>Tablet</title>
 </head>
 
 <body>
