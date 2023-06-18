@@ -1,7 +1,10 @@
 :root {
     --box-background : #f1f1f1;
 }
-
+*::selection{
+    color:white;
+    background-color: aqua;
+}
 #signin{
     text-decoration: none;
     border: 1px solid black;
