@@ -20,8 +20,16 @@
 <body>
     <style>
         #signin_btn {
-            padding: 12px 25px;
-            margin-right: 0px;
+            color: #000000;
+            padding: 10px 20px;
+            margin-left: auto;
+            margin-right: 30px;
+            border: 1px solid #000000;
+            text-decoration: none;
+        }
+
+        #signin_btn span {
+            color: #000000;
         }
     </style>
 

@@ -1,6 +1,6 @@
 <?php // login.php
 $host = 'localhost'; // Change as necessary
-$data = 'e_commerce'; // Change as necessary
+$data = 'user_login'; // Change as necessary
 $user = 'root'; // Change as necessary
 $pass = null; // Change as necessary
 $chrs = 'utf8mb4';
