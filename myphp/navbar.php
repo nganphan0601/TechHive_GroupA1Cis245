@@ -18,7 +18,6 @@
         <li><a href="developer.php">Developer</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="about.php">About</a></li>
-
     </ul>
-
+    <a href="signin.html"><button id="signin_btn">Signin/Register</button></a>
 </nav>

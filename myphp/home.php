@@ -18,6 +18,12 @@
 </head>
 
 <body>
+    <style>
+        #signin_btn {
+            padding: 12px 25px;
+            margin-right: 0px;
+        }
+    </style>
 
     <!-- navigation bar -->
     <?php include("navbar.php"); ?>
